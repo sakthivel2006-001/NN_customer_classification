@@ -54,10 +54,11 @@ Display the confusion matrix, classification report, and predictions.
 
 ## PROGRAM
 
-### Name: ANUMITHA M R
-### Register Number: 212223040018
+### Name: SAKTHIVEL S
+### Register Number: 212223220090
 
-```class PeopleClassifier(nn.Module):
+```
+class PeopleClassifier(nn.Module):
     def __init__(self, input_size):
         super(PeopleClassifier, self).__init__()
         self.fc1 = nn.Linear(input_size, 64)
